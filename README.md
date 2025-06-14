@@ -38,9 +38,12 @@ SUBNET="192.168.0"   # Change this to match your network
 for i in {0..100}; do   # Modify range here (e.g. 0..254)
 Save and run again.
 
-💬 Example: To scan the full subnet 192.168.0.0/24, set SUBNET="192.168.0" and for i in {0..254}
 
-⚠️ Notes
+## 💬 Example: To scan the full subnet 192.168.0.0/24, set SUBNET="192.168.0" and for i in {0..254}
+
+---
+
+## ⚠️ Notes
 Devices with strict firewalls (e.g., Windows) may block ICMP ping and appear "offline".
 
 For more reliable network scanning, consider using arp-scan, netdiscover, or nmap.

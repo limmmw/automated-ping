@@ -17,8 +17,8 @@ A lightweight Bash script to scan local network devices by sending ICMP echo req
 
 1. **Clone or download** the script:
    ```bash
-   git clone https://github.com/yourusername/ping-scanner.git
-   cd ping-scanner
+   git clone https://github.com/limmmw/automated-ping.git
+   cd automated-ping
    chmod +x ping_scan.sh
    ./ping_scan.sh
 

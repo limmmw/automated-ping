@@ -19,21 +19,20 @@ A lightweight Bash script to scan local network devices by sending ICMP echo req
    ```bash
    git clone https://github.com/yourusername/ping-scanner.git
    cd ping-scanner
-
-chmod +x ping_scan.sh
-
-./ping_scan.sh
+   chmod +x ping_scan.sh
+   ./ping_scan.sh
 
 
-🔧 Customizing IP Range
+## 🔧 Customizing IP Range
 By default, the script scans IPs from 192.168.1.0 to 192.168.1.100.
 To change the scanned range or subnet:
 
 Open ping_scan.sh in any text editor:
+   ```bash
+   nano ping_scan.sh
 
-nano ping_scan.sh
 Edit the subnet and range values:
-
+   ```bash
 SUBNET="192.168.0"   # Change this to match your network
 for i in {0..100}; do   # Modify range here (e.g. 0..254)
 Save and run again.

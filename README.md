@@ -31,6 +31,7 @@ Open ping_scan.sh in any text editor:
    ```bash
    nano ping_scan.sh
 
+
 Edit the subnet and range values:
    ```bash
 SUBNET="192.168.0"   # Change this to match your network

@@ -37,7 +37,8 @@ To change the scanned range or subnet:
    Save and run again.
 
 ## 💬 Example:
-To scan the full subnet 192.168.0.0/24 
+To scan the full subnet 192.168.0.0/24
+
    set:
    ```bash
    SUBNET="192.168.0" and for i in {0..254}
